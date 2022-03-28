@@ -1,0 +1,62 @@
+:root{
+    --color-light:#FFFAFA;
+    --color-white: #FFFFFF;
+    --color-primary: #0061B0;
+    --color-icon-shape-header:rgba(242, 236, 236,0.15);
+
+    --font-size-nav-menu: 13px;
+
+    --font-size-footer-lg: 18px;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Font-Gilroy/Gilroy-Medium.otf'),
+    url('../font/Font-Gilroy/Gilroy-SemiBold.otf'),
+    url('../font/Font-Gilroy/Gilroy-Black.otf'),
+    url('../font/Font-Gilroy/Gilroy-Bold.otf'),
+    url('../font/Font-Gilroy/Gilroy-Regular.otf');
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-family: Gilroy;
+    
+}
+.btn{
+    border: none;
+    outline: none;
+    min-width: 196px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 2px;     
+}
+
+
+.section-heading{
+    display: flex;
+    flex-direction: column;
+}
+.section-heading span:first-child{
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 141px;
+    color: var(--color-primary);
+}
+
+.section-heading span:last-child{
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 93px;
+    color: #908B8B;
+    align-self: center;
+}

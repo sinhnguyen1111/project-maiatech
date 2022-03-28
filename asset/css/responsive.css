@@ -1,0 +1,294 @@
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+    /* responsive header */
+    .header-top{ 
+        padding: 28px 25px;
+    }
+    .slogan-wrap{
+        right: 42px;
+        top: 20%;
+    }
+    .mobile-nav{
+        display:block;
+    }
+    .header-nav{
+        display: none;
+    }
+    .header-logo img{
+        width: 185px;
+        height:27px;
+    }
+
+    .slogan__md-number{
+        line-height: 73px;
+        font-size: 83px;
+    }
+    .slogan__md-first {
+        font-size: 35px;
+        line-height: 37px;
+        top: -5px;
+    }
+    .slogan__md-second {
+        font-size: 54px;
+        line-height: 44px;
+        top: 26px;
+        font-weight: 600;
+    }
+    .header-slogan__sm{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    
+    
+    
+    .solgan__md-underline {
+        width: 224px;
+    height: 10px;
+    left: -25px;
+    bottom: -6px;
+    }
+    .btn-follow{
+        margin-top:60px;
+    }
+    /*biểu tượng*/
+    .shape__square-empty{
+        width: 103px;
+        height:103px;
+        border: 25px solid var(--color-icon-shape-header);
+        top: 82px;
+        left: 15%;
+    }
+
+    .introduce-container{
+        display: none;
+    }
+
+    .about-wrap{
+        flex-direction:column-reverse;
+        padding-top:285px;
+    }
+   
+    /*footer*/
+    .footer-text{
+        
+        top:49px;
+        left: 0;
+        padding: 0 46px;
+    }
+    .footer-text:first-child{
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        white-space: wrap;
+    }
+    .footer-text p:not(:first-child){
+        font-size: 70px;
+        line-height: 87px;
+        text-align: center;
+    }
+    .footer-text__problem{
+        padding-top: 164px;
+    }
+    .footer-img{
+       background-image: url('../image/mobile-footer.png');
+        padding-top:300%;
+    }
+    .footer-nav{
+        flex-direction: column;
+    }
+    .footer-nav__contact{
+        width:100%;
+        padding-top:43px;
+        padding-bottom: 100px;
+    }
+
+    /*home*/
+    header{
+        padding-top: calc(100% + 506px);
+        background-image: url('../image/mobile-bg-header.svg');
+        background-size: contain;
+    }
+    .shape__square-full{
+        width:42px;
+        height:42px;
+        top: 266px;
+        left: 42px;
+    }
+    .shape__circle-bold{
+        width:64px;
+        height:64px;
+        top: 339px;
+        left: 46px;
+        border: 12px solid rgba(242, 236, 236, 0.2);
+    }
+    .shape__circle-thin{
+        width:148px;
+        height:148px;
+        top: 132px;
+        left: 193px;
+        border: 20px solid rgba(242, 236, 236, 0.2);
+    }
+    .shape__straight--left{
+        display:none;
+    }
+    .shape__straight--right{
+        top: 6.9%;
+        width: 233px;
+        left: calc(100% - 141px);
+    }
+    /*about */
+    .about-img{
+        width: 100%;
+        padding-top: 83%;
+        
+    }
+    .about-img__list{
+        padding-right:42px;
+        padding-left: 80px;
+    }
+    .about-us{
+        width: 100%;
+        padding: 0 42px;
+    }
+    .section-heading{
+        width: 220px;
+        margin: 0 auto;
+    }
+    .section-heading span:first-child{
+        line-height: 44px;
+        font-size: 40px;
+    }
+    .section-heading span:last-child{
+        line-height: 44px;
+        font-size: 40px;
+    }
+    .about-content{
+        margin:0;
+         width: 100%;
+    }
+
+    /*process*/
+    .services-container{
+        padding:0 42px;
+    }
+    .services-container{
+        flex-direction: column-reverse;
+    }
+    .services-img{
+        width: calc(100% + 42px);
+        padding-top: 100%;
+    }
+    /*service*/
+    
+    .services-about{
+        width: 100%;
+        padding: 0;
+    }
+    .services-about__info{
+        width:100%;
+    }
+    .services-about__list{
+        width:153px;
+    }
+    /*application*/
+    .application-container{
+        padding:0 42px;
+    }
+    .application-container__heading p:first-child{
+        line-height: 36px;
+        font-size:40px;
+    }
+    .application-container__heading p:last-child{
+        line-height: 36px;
+        font-size:40px;
+
+    }
+    .application-container__slogan{
+        width:100%;
+    }
+    .application-app{
+        flex-direction: column;
+    }
+    .item--desktop{
+        width:360px;
+        height:360px;
+    }
+    .application-item{
+        margin-bottom: 29.34px;
+    }
+
+    /*contact-custom*/
+    .contact-custom{
+        margin:0 42px;
+    }
+    .custom-form__heading{
+        font-size: 36px;
+        margin-bottom: 32px;
+    }
+    .contact-custom__form{
+        padding-left:51px;
+        padding-right:51px;
+    }
+    .custom-form__input input{
+        width:100%;
+        margin-bottom: 70px;
+    }
+    .btn-inbox{
+        width: 100%;
+    }
+
+    /*sofware*/
+    .sofware-container{
+        padding: 0 42px;
+    }
+    .sofware-heading.row{
+        flex-direction: column-reverse;
+    }
+    .sofware-heading__solgan{
+        width: 100%;
+        text-align: right;
+    }
+    .sofware-heading__name>p:first-child{
+        line-height: 36px;
+        font-size:40px;
+    }
+    .sofware-heading__name>p:last-child{
+        line-height: 36px;
+        font-size:40px;
+
+    }
+    .sofware-content{
+        flex-direction: column;
+    }
+    .sofware--color{
+        width:360px;
+        height:360px;
+    }
+
+    .team-container{
+        padding:0;
+    }
+    .goals-container{
+        display: none;
+    }
+}
+
+/* PC */
+@media only screen and (min-width: 1024px){
+    /* .application-desktop{
+        width: 30%;
+    
+    }
+    .application-web{
+        width: 39%;
+    
+    }
+    .application-mobile{
+        width: 30%;
+    } */
+}
+
+/*tablet*/
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+
+}
