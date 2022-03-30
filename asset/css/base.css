@@ -32,7 +32,7 @@ html{
 .btn{
     border: none;
     outline: none;
-    min-width: 196px;
+    min-width: 163px;
     height: 46px;
     font-weight: 700;
     font-size: 16px;
@@ -46,17 +46,33 @@ html{
     display: flex;
     flex-direction: column;
 }
-.section-heading span:first-child{
+.section-heading__first{
     font-weight: 700;
     font-size: 120px;
     line-height: 141px;
     color: var(--color-primary);
 }
 
-.section-heading span:last-child{
+.section-heading__second{
     font-weight: 400;
     font-size: 96px;
     line-height: 93px;
     color: #908B8B;
-    align-self: center;
+    /* align-self: center; */
+}
+@keyframes menuAnimation {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform:translateX(0%);
+    }
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
